@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* outline: 1px solid black; */
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 580px;
+    justify-content: center;
+    /* border: 4px solid yellow; */
+    /* background-color: aquamarine; */
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card_image{
+    width: 300px;
+    /* height: 100%; */
+
+}
+
+.form{
+    margin: 30px 0 0 60px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 3px solid red; */
+    /* border: 3px solid palevioletred; */
+}
+
+.card_form{
+    /* border: 4px solid blue; */
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.card_label_input{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 20px;
+}
+
+.paye{
+    /* width: 88%; */
+    height: 48px;
+    /* background-color: aquamarine; */
+}
+
+.card_radio{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-start; */
+    gap: 20px;
+    /* margin: 20px; */
+    /* background-color: blueviolet */
+}
+
+
+
+line{
+    width: 100%;
+}
+
+label{
+    font-size: 10px;
+    font-weight: 800px;
+}
+
+.input{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(177, 149, 149);
+    outline: none;
+}
+
+li{
+    font-size: 10px;
+    margin-left: 20px;
+}
+
+.hr1{
+    /* width: 100%; */
+    margin: 12px 20px;
+    /* position: relative; */
+    height: 3px;
+    background: rgb(191, 178, 178);
+}
+
+.hr2{
+    /* position: absolute; */
+    height: 3px;
+    width: 50%;
+    background: green;
+}
+
+button{
+    padding: 10px;
+    border: none;
+    font-size: 10px;
+    margin-right: 20px;
+
+}
+
+.AllBtn{
+    display: flex;
+    justify-content: flex-end;
+    /* gap: 10px; */
+}
+
+.btn1{
+    background-color: rgb(31, 138, 79);
+    color: white;
+
+}
+
+.btn2{
+    background-color: rgb(237, 248, 242);
+    color: rgb(176, 176, 176);
+}
